@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Browser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="browser">
+        <div class="tabs">
+            <div class="tab active">Tab 1</div>
+            <div class="tab">Tab 2</div>
+            <div class="tab">Tab 3</div>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search or enter URL">
+            <button onclick="search()">Go</button>
+        </div>
+        <iframe id="browser-frame" src="https://www.google.com"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
